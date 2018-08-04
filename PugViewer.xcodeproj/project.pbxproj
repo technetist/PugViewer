@@ -11,6 +11,17 @@
 		7ACF2873211621A100FA0659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF2872211621A100FA0659 /* ViewController.swift */; };
 		7ACF2875211621A400FA0659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2874211621A400FA0659 /* Assets.xcassets */; };
 		7ACF2878211621A400FA0659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2876211621A400FA0659 /* Main.storyboard */; };
+		7ACF288C211624FE00FA0659 /* SleepyPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2881211624FE00FA0659 /* SleepyPug.jpg */; };
+		7ACF288D211624FE00FA0659 /* Pug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2882211624FE00FA0659 /* Pug.jpg */; };
+		7ACF288E211624FE00FA0659 /* PugBlep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2883211624FE00FA0659 /* PugBlep.jpg */; };
+		7ACF288F211624FE00FA0659 /* LickingPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2884211624FE00FA0659 /* LickingPug.jpg */; };
+		7ACF2890211624FE00FA0659 /* PugBelly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2885211624FE00FA0659 /* PugBelly.jpg */; };
+		7ACF2891211624FE00FA0659 /* SittingPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2886211624FE00FA0659 /* SittingPug.jpg */; };
+		7ACF2892211624FE00FA0659 /* PugWig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2887211624FE00FA0659 /* PugWig.jpg */; };
+		7ACF2893211624FE00FA0659 /* NaughtyPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2888211624FE00FA0659 /* NaughtyPug.jpg */; };
+		7ACF2894211624FE00FA0659 /* DignifiedPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2889211624FE00FA0659 /* DignifiedPug.jpg */; };
+		7ACF2895211624FE00FA0659 /* HappyPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF288A211624FE00FA0659 /* HappyPug.jpg */; };
+		7ACF2896211624FE00FA0659 /* SmilingPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF288B211624FE00FA0659 /* SmilingPug.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +32,17 @@
 		7ACF2877211621A400FA0659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ACF2879211621A400FA0659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACF287A211621A400FA0659 /* PugViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PugViewer.entitlements; sourceTree = "<group>"; };
+		7ACF2881211624FE00FA0659 /* SleepyPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SleepyPug.jpg; sourceTree = "<group>"; };
+		7ACF2882211624FE00FA0659 /* Pug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pug.jpg; sourceTree = "<group>"; };
+		7ACF2883211624FE00FA0659 /* PugBlep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PugBlep.jpg; sourceTree = "<group>"; };
+		7ACF2884211624FE00FA0659 /* LickingPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LickingPug.jpg; sourceTree = "<group>"; };
+		7ACF2885211624FE00FA0659 /* PugBelly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PugBelly.jpg; sourceTree = "<group>"; };
+		7ACF2886211624FE00FA0659 /* SittingPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SittingPug.jpg; sourceTree = "<group>"; };
+		7ACF2887211624FE00FA0659 /* PugWig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PugWig.jpg; sourceTree = "<group>"; };
+		7ACF2888211624FE00FA0659 /* NaughtyPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NaughtyPug.jpg; sourceTree = "<group>"; };
+		7ACF2889211624FE00FA0659 /* DignifiedPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DignifiedPug.jpg; sourceTree = "<group>"; };
+		7ACF288A211624FE00FA0659 /* HappyPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HappyPug.jpg; sourceTree = "<group>"; };
+		7ACF288B211624FE00FA0659 /* SmilingPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SmilingPug.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +80,28 @@
 				7ACF2874211621A400FA0659 /* Assets.xcassets */,
 				7ACF2876211621A400FA0659 /* Main.storyboard */,
 				7ACF2879211621A400FA0659 /* Info.plist */,
+				7ACF2880211624FE00FA0659 /* Content */,
 				7ACF287A211621A400FA0659 /* PugViewer.entitlements */,
 			);
 			path = PugViewer;
+			sourceTree = "<group>";
+		};
+		7ACF2880211624FE00FA0659 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				7ACF2881211624FE00FA0659 /* SleepyPug.jpg */,
+				7ACF2882211624FE00FA0659 /* Pug.jpg */,
+				7ACF2883211624FE00FA0659 /* PugBlep.jpg */,
+				7ACF2884211624FE00FA0659 /* LickingPug.jpg */,
+				7ACF2885211624FE00FA0659 /* PugBelly.jpg */,
+				7ACF2886211624FE00FA0659 /* SittingPug.jpg */,
+				7ACF2887211624FE00FA0659 /* PugWig.jpg */,
+				7ACF2888211624FE00FA0659 /* NaughtyPug.jpg */,
+				7ACF2889211624FE00FA0659 /* DignifiedPug.jpg */,
+				7ACF288A211624FE00FA0659 /* HappyPug.jpg */,
+				7ACF288B211624FE00FA0659 /* SmilingPug.jpg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +162,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACF288C211624FE00FA0659 /* SleepyPug.jpg in Resources */,
+				7ACF2890211624FE00FA0659 /* PugBelly.jpg in Resources */,
 				7ACF2875211621A400FA0659 /* Assets.xcassets in Resources */,
+				7ACF2896211624FE00FA0659 /* SmilingPug.jpg in Resources */,
+				7ACF2893211624FE00FA0659 /* NaughtyPug.jpg in Resources */,
+				7ACF2894211624FE00FA0659 /* DignifiedPug.jpg in Resources */,
+				7ACF2891211624FE00FA0659 /* SittingPug.jpg in Resources */,
+				7ACF2892211624FE00FA0659 /* PugWig.jpg in Resources */,
+				7ACF288F211624FE00FA0659 /* LickingPug.jpg in Resources */,
+				7ACF288E211624FE00FA0659 /* PugBlep.jpg in Resources */,
+				7ACF2895211624FE00FA0659 /* HappyPug.jpg in Resources */,
+				7ACF288D211624FE00FA0659 /* Pug.jpg in Resources */,
 				7ACF2878211621A400FA0659 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
