@@ -22,6 +22,8 @@
 		7ACF2894211624FE00FA0659 /* DignifiedPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF2889211624FE00FA0659 /* DignifiedPug.jpg */; };
 		7ACF2895211624FE00FA0659 /* HappyPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF288A211624FE00FA0659 /* HappyPug.jpg */; };
 		7ACF2896211624FE00FA0659 /* SmilingPug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF288B211624FE00FA0659 /* SmilingPug.jpg */; };
+		7ACF289821162AD100FA0659 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF289721162AD100FA0659 /* SourceViewController.swift */; };
+		7ACF289A21162B7200FA0659 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF289921162B7200FA0659 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		7ACF2889211624FE00FA0659 /* DignifiedPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DignifiedPug.jpg; sourceTree = "<group>"; };
 		7ACF288A211624FE00FA0659 /* HappyPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HappyPug.jpg; sourceTree = "<group>"; };
 		7ACF288B211624FE00FA0659 /* SmilingPug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SmilingPug.jpg; sourceTree = "<group>"; };
+		7ACF289721162AD100FA0659 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		7ACF289921162B7200FA0659 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				7ACF2872211621A100FA0659 /* ViewController.swift */,
 				7ACF2874211621A400FA0659 /* Assets.xcassets */,
 				7ACF2876211621A400FA0659 /* Main.storyboard */,
+				7ACF289721162AD100FA0659 /* SourceViewController.swift */,
+				7ACF289921162B7200FA0659 /* DetailViewController.swift */,
 				7ACF2879211621A400FA0659 /* Info.plist */,
 				7ACF2880211624FE00FA0659 /* Content */,
 				7ACF287A211621A400FA0659 /* PugViewer.entitlements */,
@@ -187,6 +193,8 @@
 			files = (
 				7ACF2873211621A100FA0659 /* ViewController.swift in Sources */,
 				7ACF2871211621A100FA0659 /* AppDelegate.swift in Sources */,
+				7ACF289821162AD100FA0659 /* SourceViewController.swift in Sources */,
+				7ACF289A21162B7200FA0659 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
