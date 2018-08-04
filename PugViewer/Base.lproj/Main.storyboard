@@ -706,7 +706,7 @@
             <objects>
                 <splitViewController id="0U8-rv-62A" sceneMemberID="viewController">
                     <splitViewItems>
-                        <splitViewItem id="FjV-wr-xW0"/>
+                        <splitViewItem holdingPriority="260" id="FjV-wr-xW0"/>
                         <splitViewItem id="kcn-VO-8de"/>
                     </splitViewItems>
                     <splitView key="splitView" dividerStyle="thin" vertical="YES" id="k6J-gc-9C3">
@@ -734,10 +734,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kst-eA-lYj">
+                            <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kst-eA-lYj">
                                 <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="lac-xi-uVO">
+                                <clipView key="contentView" drawsBackground="NO" id="lac-xi-uVO">
                                     <rect key="frame" x="1" y="1" width="448" height="298"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -765,9 +764,8 @@
                                                             <rect key="frame" x="1" y="1" width="445" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
-                                                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cur-2D-Mea">
+                                                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Cur-2D-Mea">
                                                                     <rect key="frame" x="0.0" y="0.0" width="445" height="17"/>
-                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="fEp-8j-Iir">
                                                                         <font key="font" metaFont="system"/>
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -775,6 +773,11 @@
                                                                     </textFieldCell>
                                                                 </textField>
                                                             </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="Cur-2D-Mea" firstAttribute="centerX" secondItem="UaB-Pm-eQN" secondAttribute="centerX" id="b68-Wz-FDF"/>
+                                                                <constraint firstItem="Cur-2D-Mea" firstAttribute="leading" secondItem="UaB-Pm-eQN" secondAttribute="leading" constant="2" id="dgx-g3-guY"/>
+                                                                <constraint firstItem="Cur-2D-Mea" firstAttribute="centerY" secondItem="UaB-Pm-eQN" secondAttribute="centerY" id="wqd-ZX-dxn"/>
+                                                            </constraints>
                                                             <connections>
                                                                 <outlet property="textField" destination="Cur-2D-Mea" id="cbI-ba-qt6"/>
                                                             </connections>
@@ -800,7 +803,16 @@
                                 </scroller>
                             </scrollView>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="Kst-eA-lYj" firstAttribute="leading" secondItem="xGm-Es-L50" secondAttribute="leading" id="LLQ-2D-gYF"/>
+                            <constraint firstAttribute="trailing" secondItem="Kst-eA-lYj" secondAttribute="trailing" id="Noa-Yr-vhE"/>
+                            <constraint firstAttribute="bottom" secondItem="Kst-eA-lYj" secondAttribute="bottom" id="l3A-p2-pBF"/>
+                            <constraint firstItem="Kst-eA-lYj" firstAttribute="top" secondItem="xGm-Es-L50" secondAttribute="top" id="mkQ-3o-lgb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="RQb-i8-Vol" id="y2u-12-AsJ"/>
+                    </connections>
                 </viewController>
                 <customObject id="Yqy-BL-Bcu" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -814,12 +826,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VAQ-LJ-ydU">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VAQ-LJ-ydU">
                                 <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="SK4-nz-hQh"/>
                             </imageView>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="VAQ-LJ-ydU" secondAttribute="bottom" id="F97-0j-4G1"/>
+                            <constraint firstItem="VAQ-LJ-ydU" firstAttribute="leading" secondItem="K14-SG-pe5" secondAttribute="leading" id="VTK-8H-kuX"/>
+                            <constraint firstItem="VAQ-LJ-ydU" firstAttribute="top" secondItem="K14-SG-pe5" secondAttribute="top" id="jKH-lY-I19"/>
+                            <constraint firstAttribute="trailing" secondItem="VAQ-LJ-ydU" secondAttribute="trailing" id="nsn-HY-lqi"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="O5r-In-emf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
